@@ -18,7 +18,7 @@
 			width={64}
 		/>
 	{:else}
-		<img src="/img/81c0df2befe565b05018da6b026babb0.png" alt="" class="rounded-full" height={64} width={64} />
+		<img src="/img/discord.gif" alt="" class="rounded-full" height={64} width={64} />
 	{/if}
 	<DiscordStatus {data$} />
 </div>
