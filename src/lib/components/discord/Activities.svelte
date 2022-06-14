@@ -5,9 +5,7 @@
 	import Game from './activity/Game.svelte';
 	import Spotify from './activity/Spotify.svelte';
 	import type { LanyardData } from '$lib/lanyard';
-
 	export let data$: Readable<Partial<LanyardData>>;
-
 	const activities$ = activities(data$);
 </script>
 

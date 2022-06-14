@@ -1,6 +1,5 @@
 <script lang="ts">
 	import type { LanyardDiscordActivity } from '$lib/lanyard';
-
 	export let activity: LanyardDiscordActivity;
 </script>
 
