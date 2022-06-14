@@ -18,7 +18,7 @@
 						{#if $data$.discord_user}
 							{$data$.discord_user.username}<span class="text-gray-400">#{$data$.discord_user.discriminator}</span>
 						{:else}
-							Elon<span class="text-gray-400">#3011</span>
+							Deleted User<span class="text-gray-400">#0000</span>
 						{/if}
 					</h1>
 				</div>
